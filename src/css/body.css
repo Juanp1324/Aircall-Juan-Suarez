@@ -1,0 +1,25 @@
+html, body h2, h3, ul, li {
+  margin-left: 30px;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+}
+
+body {
+  background: #233142;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 13px;
+  color: #333333;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 30px;
+  margin: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 5px;
+  padding-left: 15px;
+}

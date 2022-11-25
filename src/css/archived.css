@@ -1,0 +1,16 @@
+#unarchiveButton {
+  color: #1976d2;
+  background-color: white;
+  border: none;
+}
+.archive {
+  position: relative;
+  height: 520px;
+}
+.archPos {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}

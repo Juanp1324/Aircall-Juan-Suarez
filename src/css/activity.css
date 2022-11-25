@@ -1,0 +1,50 @@
+.feedContainer {
+  background-color: #1976d2;
+  border-radius: 10px;
+  height: 60px;
+  width: 330px;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 80px 220px 30px;
+  grid-template-rows: 30px 30px 0px;
+  grid-template-areas:
+    "img from info"
+    "img date archive";
+}
+.item-a {
+  grid-area: img;
+}
+.item-b {
+  padding-top: 10px;
+  margin-right: auto;
+  grid-area: from;
+  line-height: 15px;
+  text-align: left;
+}
+.item-c {
+  padding-top: 10px;
+  grid-area: date;
+  font-size: 10px;
+  font-weight: bold;
+}
+.item-d {
+  grid-area: info;
+}
+.item-e {
+  grid-area: archive;
+}
+.details {
+  color: black;
+  height: 80px;
+}
+.detailsDate {
+  font-size: 13px;
+  margin-top: 15px;
+}
+.detailsVia {
+  font-size: 13px;
+}

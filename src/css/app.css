@@ -1,0 +1,41 @@
+#app {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+  position: relative;
+  background: grey;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.9);
+}
+
+#app .footer {
+  position: absolute;
+  bottom: 0;
+}
+
+#app .container-view {
+  padding: 20px;
+}
+
+#app button {
+  font-family: "Roboto", sans-serif;
+}
+
+.loading{
+  font-size: 22px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
