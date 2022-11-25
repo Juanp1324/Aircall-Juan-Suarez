@@ -23,6 +23,7 @@ const App = () => {
         setData(response.data);
       } catch (err) {
         setData(null);
+        console.log(err)
       }
     };
     getData();
